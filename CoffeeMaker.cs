@@ -292,7 +292,7 @@ namespace HighRiskCafe
         {
             coffe.IsDone = true;
            
-            string messageForUser = "Here´s your coffee a nice warm" + coffe.CoffeeType + "enjoy!";
+            string messageForUser = "Here´s your coffee a nice warm" + " " + coffe.CoffeeType + " " + "enjoy!";
             Console.WriteLine();
             foreach (var character in messageForUser)
             {
