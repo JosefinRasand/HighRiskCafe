@@ -41,29 +41,29 @@ namespace HighRiskCafe
                                     }
                                     else
                                     {
-                                        DisplayOrder();
+                                        DisplayErrorMessage();
                                     }
                                 }
                                 else
                                 {
-                                    DisplayOrder();
+                                    DisplayErrorMessage();
                                 }
                             }
                             else
                             {
-                                DisplayOrder();
+                                DisplayErrorMessage();
                             }
                         }                        
                             else
                             {
-                                DisplayOrder();
+                                DisplayErrorMessage();
                             }                     
                         
                   
                 }
                 else
                 {
-                    DisplayOrder();
+                    DisplayErrorMessage();
                 }
                 
             }
@@ -75,7 +75,7 @@ namespace HighRiskCafe
 
         }
 
-        private void DisplayOrder()
+        private void DisplayErrorMessage()
         {
             Console.WriteLine();
             string errorMessageForUser = "Something went wrong.";
